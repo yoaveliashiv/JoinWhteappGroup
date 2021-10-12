@@ -8,4 +8,4 @@
 
 
 
-![](https://github.com/yoaveliashiv/JoinWhteappGroup/issues/1#issue-1023501123.jpg)
+![](https://github.com/yoaveliashiv/JoinWhteappGroup/issues/1#issue-1023501123)
