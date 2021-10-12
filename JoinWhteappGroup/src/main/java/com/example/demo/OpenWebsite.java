@@ -22,10 +22,7 @@ import java.util.ArrayList;
 import java.awt.AWTException;
 
 
-/**
- *Realizes the automated game for display by JFrem
- * 
- */
+
 
 public class OpenWebsite   {
 	ArrayList<String> links=new ArrayList<String>();
@@ -54,7 +51,7 @@ public class OpenWebsite   {
 	}
 
 
-	public void appJoinGroup() {
+	public void appJoinGroup() {//Open website and run the app
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 

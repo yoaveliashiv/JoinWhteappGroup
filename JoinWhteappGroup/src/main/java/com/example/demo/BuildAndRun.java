@@ -130,7 +130,7 @@ public class BuildAndRun extends Applet {
 
 		JButton btnPlay = new JButton("RUN");
 		btnPlay.setBounds(948, 136, 63, 21);
-		btnPlay.addActionListener(new ActionListener() {
+		btnPlay.addActionListener(new ActionListener() {  //run the app
 			public void actionPerformed(ActionEvent e) {
 				System.out.println(2);
 				try {
@@ -139,7 +139,7 @@ public class BuildAndRun extends Applet {
 
 						return;
 					}
-					play.appJoinGroup();
+					play.appJoinGroup();//run the app
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -151,7 +151,7 @@ public class BuildAndRun extends Applet {
 		JButton btnAdd = new JButton("ADD LINK");
 		btnAdd.setBounds(702, 136, 133, 21);
 		btnAdd.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
+			public void actionPerformed(ActionEvent e) { //add link to list
 
 //				if(ErrInput.Time(start.getText())) {
 //					JOptionPane.showMessageDialog(frame, "Error! For an  start time:'"+start.getText()+"' the input is incorrect");
@@ -171,7 +171,7 @@ public class BuildAndRun extends Applet {
 //				play.timesEnd.put(start.getText(),end.getText());
 			//	play.website.put(start.getText(),websiteF.getText());
 			//	Collections.sort( play.times, new  CompertorTimes());
-				play.links.add(websiteF.getText());
+				play.links.add(websiteF.getText());//add link to list
 
 				System.out.println(play.links.get(0));
 				DefaultTableModel model=(DefaultTableModel)table.getModel();
