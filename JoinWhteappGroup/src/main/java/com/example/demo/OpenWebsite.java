@@ -24,7 +24,7 @@ import java.awt.AWTException;
 
 
 
-public class OpenWebsite   {
+public class OpenWebsite   { //Open website and run the app
 	ArrayList<String> links=new ArrayList<String>();
 
 
